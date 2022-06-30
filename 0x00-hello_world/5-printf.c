@@ -1,0 +1,1 @@
+-Wextra -pedantic
