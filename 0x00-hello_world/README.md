@@ -1,1 +1,1 @@
-using C programming and betty style
+main.c
