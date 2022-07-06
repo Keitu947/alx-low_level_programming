@@ -1,29 +1,24 @@
 #include <stdio.h>
 
 /**
-* main - block to execute
-* Desciption: computes and prints
+* main - block to be executed
+* Description: 5 below 1024
 * Return: 0
 */
 int main(void)
 {
-	int i = 0;
-	long int a = 0, b = 1, next;
+	int a = 0, b = 1, next = 0;
+	int sum = 0;
 
-	while (i < 50)
+	while (next < 4000000)
 	{
 		next = a + b;
 		a = b;
 		b = next;
-		printf("%lu", next);
 
-		if (i < 49)
-		{
-			printf(", ");
-		}
-		i++;
+		if (next % 2 == 0)
+			sum += next;
 	}
-	putchar('\n');
-
+	printf("%i\n", sum);
 	return (0);
 }
