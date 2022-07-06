@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * print_sign - entry point
- * @n : number to check
- * Return:0 or 1
- */
+* print_sign - checks number or condition statements
+* @n : number to check
+* Return:0 or 1
+*/
 int print_sign(int n)
 {
    	int number;
