@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - prints the numbers from 1 to 100.
+* main - prints the numbers from 1 to 100
 *
 * Return: void.
 */
