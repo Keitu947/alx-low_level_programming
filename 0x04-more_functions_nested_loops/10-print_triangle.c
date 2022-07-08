@@ -5,7 +5,6 @@
 * @size : integer type
 * Return:void
 */
-
 void print_triangle(int size)
 {
 	int i = 1;
@@ -13,6 +12,7 @@ void print_triangle(int size)
 	while (i <= size && size > 0)
 	{
 		int x = 0;
+
 		while (x < size - i)
 		{
 			_putchar(' ');
