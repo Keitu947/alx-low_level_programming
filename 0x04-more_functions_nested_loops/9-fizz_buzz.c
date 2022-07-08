@@ -1,11 +1,13 @@
 #include <stdio.h>
 /**
-* main - prints the numbers from 1 to 100, includes modulus division of 3 and 5 conditions
+* main - prints the numbers from 1 to 100.
 *
 * Return: void.
 */
+
 int main(void)
 {
+
 	int i = 1;
 
 	while (i <= 100)
@@ -36,4 +38,5 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
+
 }
