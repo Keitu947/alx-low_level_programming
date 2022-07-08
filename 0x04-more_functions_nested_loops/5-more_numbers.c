@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-* print_numbers -  prints 10 times the numbers, from 0 to 14
-* Return: 0
+* more_numbers - prints more numbers
+* Return:void
 */
 void more_numbers(void)
 {
@@ -27,4 +27,5 @@ void more_numbers(void)
 		_putchar('\n');
 		i++;
 	}
+
 }
