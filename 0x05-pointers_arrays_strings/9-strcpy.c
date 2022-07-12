@@ -18,5 +18,5 @@ char *_strcpy(char *dest, char *src)
 		*dest++ = *src++;
 		size++;
 	}
-	return (temp);
+	return (dest);
 }
