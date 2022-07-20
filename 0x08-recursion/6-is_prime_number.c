@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* is_prime - returns 1 if the input integer is a prime number, otherwise return 0.
+* is_prime - identify if an input number is a prime number.
 * @n: input number.
 * @c: iterator.
 * Return: 1 if n is a prime number. 0 if n is not a prime number.
